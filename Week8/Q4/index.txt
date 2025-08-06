@@ -1,0 +1,24 @@
+git status
+git branch GitWork
+git checkout GitWork
+echo branchcontent > hello.xml
+git add hello.xml
+git commit
+git checkout master
+echo mastercontent > hello.xml
+git add hello.xml
+git commit
+git log --oneline --graph --decorate --all
+git diff master GitWork
+git difftool master GitWork
+git merge GitWork
+
+git add hello.xml
+git commit
+git status
+echo *~ >> .gitignore
+git add .gitignore
+git commit
+git branch -a
+git branch -d GitWork
+git log --oneline --graph --decorate

@@ -1,0 +1,13 @@
+Step 1 – Create files and folders
+mkdir log
+echo sample > test.log
+
+Step 2 – Create .gitignore file
+echo *.log > .gitignore
+echo log/ >> .gitignore
+
+Step 3 – Track .gitignore and check status
+git add .gitignore
+git status
+git commit
+git status

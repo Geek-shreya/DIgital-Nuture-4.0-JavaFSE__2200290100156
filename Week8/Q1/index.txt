@@ -1,0 +1,23 @@
+Step 1 – Git configuration
+git --version
+git config --global user.name "Shreya Garg"
+git config --global user.email "shreya.2226cse1095@kiet.edu"
+git config --global core.editor "notepad++.exe"
+git config --list --global
+
+Step 2 – Create new local repository
+mkdir GitDemo
+cd GitDemo
+git init
+
+Step 3 – Create file and track it
+echo Welcome to Git Demo > welcome.txt
+ls
+cat welcome.txt
+git status
+git add welcome.txt
+git commit
+git status
+
+Step 4 – Connect to remote GitLab repo
+
